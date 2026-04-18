@@ -7,26 +7,42 @@ import {
   SectionLabel,
 } from "@/components/ui";
 
+let DESC0 = `Developed and maintained full-stack web applications using React, Node.js, and SQL. 
+Built scalable APIs and optimized database performance. 
+Translated UI/UX designs (Figma/Adobe XD) into responsive components`;
+let DESC1 = `Built and shipped 3 full-stack products from zero to production. 
+Owned the frontend codebase and CI/CD pipeline.`;
+let DESC2 = `Developed client-facing web applications and internal tooling.
+ Collaborated closely with senior developers to deliver cutting-edge solutions. 
+ Debugging and improving App performance and user experience.`;
+let DESC3 = `Built and shipped 3 full-stack products from zero to production. 
+Owned the frontend codebase and CI/CD pipeline.`;
 
 export const Experience = () => {
   const EXPERIENCE = [
     {
-      company: "Tech Company",
-      role: "Senior Software Engineer",
-      period: "2022 – Present",
-      desc: "Led development of scalable microservices handling 10M+ daily requests. Drove architecture decisions across a team of 8 engineers.",
+      company: "Pill4rs Digital Company",
+      role: "Software Engineer",
+      period: "2024",
+      desc: DESC0,
     },
     {
       company: "Startup Co.",
       role: "Full Stack Developer",
       period: "2020 – 2022",
-      desc: "Built and shipped 3 full-stack products from zero to production. Owned the frontend codebase and CI/CD pipeline.",
+      desc: DESC1,
     },
     {
-      company: "Agency Name",
-      role: "Junior Developer",
-      period: "2018 – 2020",
-      desc: "Developed client-facing web applications and internal tooling. Collaborated closely with designers to deliver pixel-perfect UIs.",
+      company: "SolarSoft",
+      role: "Web & Mobile Developer (Intern)",
+      period: "2021 – 2022",
+      desc: DESC2,
+    },
+    {
+      company: "SolarSoft",
+      role: "Web & Mobile Developer (Intern)",
+      period: "2021 – 2022",
+      desc: DESC3,
     },
   ];
   return (
